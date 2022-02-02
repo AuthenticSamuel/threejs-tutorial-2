@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	text-decoration: none;
+}
+
+.font- {
+	&exo {
+		font-family: "Exo 2", sans-serif;
+	}
+
+	&space-mono {
+		font-family: "Space Mono", monospace;
+	}
+}
+
+.absolute {
+	position: absolute;
+}
+
+.text- {
+	&white {
+		color: white;
+	}
+
+	&center {
+		text-align: center;
+	}
+
+	&lg {
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+	}
+
+	&4xl {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+	}
+
+	&gray {
+		&-800 {
+			color: rgb(31, 41, 55);
+
+			&-hover:hover {
+				color: rgb(31, 41, 55);
+			}
+		}
+	}
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.tracking- {
+	&wide {
+		letter-spacing: 0.025em;
+	}
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.border {
+	border: 1px solid white;
+}
+
+.rounded- {
+	&lg {
+		border-radius: 0.5rem;
+	}
+}
+
+.mt- {
+	&8 {
+		margin-top: 2rem;
+	}
+}
+
+.px- {
+	&4 {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+.py- {
+	&2 {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
+}
+
+.bg- {
+	&white {
+		background-color: white;
+
+		&-hover:hover {
+			background-color: white;
+		}
+	}
+}
